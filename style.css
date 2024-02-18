@@ -698,6 +698,7 @@ section{
         right: -105%;
         width: 30rem;
         background: var(--white);
+        box-shadow: var(--box-shadow);
         height: 100%;
         display: -webkit-box;
         display: -ms-flexbox;
