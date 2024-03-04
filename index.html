@@ -295,21 +295,25 @@
     
             <form action="">
                 <h3>book your first visit today</h3>
+              <div class="inputBox">
+                <input type="text" id="to" name="to" required autocomplete="off" placeholder="Your email">
+                </div>
+                
                 <div class="inputBox">
-                    <input type="text" placeholder="Your name">
+                    <input type="text" id="subject" name="subject" required autocomplete="off" placeholder="Subject">
                 </div>
                 <div class="inputBox">
-                    <input type="email" placeholder="Your e-mail">
+                    <input id="message" name="message" required spellcheck="false" autocomplete="off" placeholder="Your Message..."></input>
                 </div>
-                <div class="inputBox">
-                    <input type="text" placeholder="Subject">
-                </div>
-                <div class="inputBox">
-                    <input type="text" placeholder="Message">
-                </div>
-    
-    
-                <input type="submit" value="Send A Message" class="btn">
+ 
+          <div class="form-group result-container">
+
+                    <p class="result">Email sent successfully.</p>
+
+                    <button type="button" class="send-btn">Send Email</button>
+
+                </div> 
+          
             </form>
     
             <div class="image">
@@ -321,7 +325,7 @@
 </section>
 
 <!-- visit end-->
-
+    
 <!-- reviews -->
 
 <section class="review" id="review">
