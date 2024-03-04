@@ -26,12 +26,14 @@ function sendEmail() {
     const to = document.getElementById("to").value;
     const subject = document.getElementById("subject").value;
     const message = document.getElementById("message").value;
+    const name = document.getElementById("name").value;
 
     // Send the email using EmailJS
     emailjs.send("service_oc9avt4", "template_b6fx66k", {
         to_email: to,
         subject: subject,
-        message: message
+        message: message,
+        name: name
     })
         .then(function () {
             result.innerHTML = "Email sent successfully!";
