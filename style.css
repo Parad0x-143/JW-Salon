@@ -745,3 +745,32 @@ section{
     }
 
 }
+
+
+}
+
+.result-container {
+
+  margin-bottom: 0;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+.result-container p{
+
+  font-size: 1.8rem;
+
+  font-weight: 500;
+
+  color: #3461ca;
+
+  opacity: 0;
+
+  transition: all 0.2s ease;
+
+} 
